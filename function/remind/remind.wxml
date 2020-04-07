@@ -1,0 +1,30 @@
+<view class="page">
+
+  <view class="page__bd">
+    <view class="weui-cells__title">带图标、说明、跳转的列表项</view>
+    <view class="weui-cells weui-cells_after-title">
+      <navigator url="/function/Setevents/setdrinkwater/setdrinkwater" class="weui-cell weui-cell_access" hover-class="weui-cell_active" bindtap="get">
+        <view class="weui-cell__hd">
+          <image src="/img/user-unlogin.png" style="margin-right: 5px;vertical-align: middle;width:30px; height: 30px;"></image>
+        </view>
+        <view class="weui-cell__bd">喝水提醒</view>
+        <view class="weui-cell__ft weui-cell__ft_in-access">已关闭</view>
+      </navigator>
+      <navigator url="/function/Setevents/Reminder/Reminder" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+        <view class="weui-cell__hd">
+          <image src="/img/user-unlogin.png" style="margin-right: 5px;vertical-align: middle;width:30px; height: 30px;"></image>
+        </view>
+        <view class="weui-cell__bd">吃药提醒</view>
+        <view class="weui-cell__ft weui-cell__ft_in-access">已关闭</view>
+      </navigator>
+      <navigator url="/function/Setevents/Setevents" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+        <view class="weui-cell__hd">
+          <image src="/img/user-unlogin.png" style="margin-right: 5px;vertical-align: middle;width:30px; height: 30px;"></image>
+        </view>
+        <view class="weui-cell__bd">更多提醒</view>
+        <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+      </navigator>
+    </view>
+  </view>
+
+</view>

@@ -1,0 +1,7 @@
+.btn-water {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+}

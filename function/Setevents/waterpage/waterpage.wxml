@@ -1,0 +1,22 @@
+<view class="page">
+  <!-- 喝水提醒时间 -->
+  <view class="page-bd">
+
+    <view class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+      <view class="weui-cell__bd">第一次</view>
+      <picker mode="time" value="{{time}}" title="开始时间" start="00:00" end="23:59" bindchange="bindTimeChange">
+        <view class="weui-input">{{time}}</view>
+      </picker>
+      <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+    </view>
+  </view>
+  
+  
+  <picker class="text_align" mode="time" value="{{time}}" title="开始时间" start="00:00" end="23:59"
+  bindchange="bindTimeChanges"
+  >
+        <view class="weui-input" >添加</view>
+      </picker>
+</view>
+<!-- {{time}} -->
+<!--  <button bindtap="bindTimeChange" style='border-color:#7f8389;position:fixed;width:100%;bottom:0;display:flex;justify-content:center;'>添加</button> -->

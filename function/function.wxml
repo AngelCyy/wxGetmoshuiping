@@ -1,0 +1,59 @@
+<!--function/function.wxml-->
+<view class="page">
+
+  <view class="page__bd">
+    <view > 
+      <text>Faithiot</text>
+      <text>设备列表</text>
+      <text style="justify-content:flex-end">设置</text>
+    </view>
+
+    <view class="section">
+      <!-- <view class="section__title">justify-content: space-around</view> -->
+      <view class="flex-wrp" style="flex-direction:row;justify-content: space-around;">
+        <view class="flex-item">
+          <image src="/img/user-unlogin.png" style="width: 50px; height: 64px;"></image>
+        </view>
+        <view class="flex-item">
+          <view class="alignitems">
+            <text>事件提醒</text>
+            <text>未使用</text>
+          </view>
+
+        </view>
+        <view class="flex-item">
+          <button bindtap="getSkip" class="weui-btn mini-btn" type="default" size="mini">按钮</button>
+          <!-- bindtap="getSkip" -->
+        </view>
+      </view>
+    </view>
+
+    <view>
+      <view class="section">
+        <!-- <view class="section__title">justify-content: space-around</view> -->
+        <view class="flex-wrp" style="flex-direction:row;justify-content: space-around;">
+          <view class="flex-item">
+            <view></view>
+            <image src="/img/user-unlogin.png" style="width: 50px; height: 64px;"></image>
+          </view>
+          <view class="flex-item">
+            <view class="alignitems">
+              <text>倒计时提醒提醒</text>
+              <text>已使用</text>
+            </view>
+
+          </view>
+          <view class="flex-item">
+            <button class="weui-btn mini-btn" bindtap="goCountdown" type="default" size="mini">按钮</button>
+          </view>
+        </view>
+      </view>
+    </view>
+
+    <view>
+
+    </view>
+  </view>
+
+
+</view>

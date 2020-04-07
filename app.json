@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "function/facility/facility",
+    "function/facility/settingup/settingup",
+    "function/function",
+    "homepage/home/home",
+    
+    "function/Countdown/reminders/remind_page/remind_page",
+    "function/Countdown/reminders/remiders",
+    "function/Countdown/college/college",
+    "function/Countdown/birthday/birthday",
+    "function/Setevents/Reminder/Reminder",
+    "function/Countdown/Countdown",
+    "function/Setevents/Setevents",
+    "function/Setevents/setdrinkwater/setdrinkwater",
+    "function/Setevents/waterpage/waterpage",
+    "function/remind/remind",
+    "homepage/login/login",
+    "pages/index/index",
+    "homepage/test/test",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "墨水屏",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

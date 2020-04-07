@@ -1,0 +1,53 @@
+<!--index.wxml-->
+<view class="flex-row">
+  <view>
+
+    <!-- <view class="one {{showView?'show':'hide'}} ">
+
+   <button type="primary" class="main" bindtap='showButton'>下一步</button> 
+  </view> -->
+    <view class=" {{showView?'show':'hide'}}">
+      <image></image>
+      <button type="primary" class="main" bindtap='showButton'>在下一步</button>
+
+    </view>
+
+    <view class="{{showView?'hide':'show'}} ">
+      <view>
+        <image class="title" src="/img/astart.png"></image>
+        <text class="title">欢迎来到墨水屏便签纸</text>
+      </view>
+      <text class="title">未添加设备，请添加</text>
+
+      <view class="scan-view">
+        <button type="primary" class="loginBtn" bindtap='showButton'>上一步</button>
+        <button type="primary" class="loginBtn" bindtap='getScancode'>二维码扫描</button>
+
+      </view>
+
+      <button type="default" bindtap="loadingTap">点击弹出loading</button>
+      <button style='margin-top:60rpx;width:80%' bindtap='showBusy'>showBusy</button>
+      <loading hidden="{{loadingHidden}}">
+        连接中...
+      </loading>
+      <view wx:if="{{result !=''}}">
+        <view class="text_box">扫码的内容:{{result}}</view>
+
+      </view>
+
+      <view class="mask" catchtouchmove="preventTouchMove" wx:if="{{showModal}}"></view>
+
+      <view class="modalDlg" wx:if="{{showModal}}">
+      <text>蓝牙正在配对</text>
+        <image src="/figures/logo-smile.png" />
+        <text>欢迎来到模态对话框~</text>
+        <button bindtap="go">点我可以关掉对话框</button>
+      </view>
+
+      <button bindtap="submit">点我弹窗</button>
+    </view>
+
+
+
+  </view>
+</view>

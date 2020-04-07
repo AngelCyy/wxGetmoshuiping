@@ -1,0 +1,15 @@
+<!--function/facility/facility.wxml
+设备页面
+-->
+<view class="item-box ">
+  <view class="items">
+    <view wx:for="{{list}}" wx:key="{{index}}" class="item">
+
+      <view class="">
+        <image class="item-icon" src="/img/user-unlogin.png"></image>
+        <text class="">设备号:</text>
+      </view>
+
+    </view>
+  </view>
+</view>

@@ -1,0 +1,35 @@
+/* function/Setevents/Setevents.wxss */
+.textarea-bg {
+  background-color: #fff;
+
+  border-radius: 15px;
+  margin: 0 0 3px 18px;
+}
+.word{
+  position: absolute;
+  right:30rpx;
+}
+.input{
+  width: 100%;
+  border-bottom: 1rpx solid #efefef;
+  height: 88rpx;
+  border-top: 1rpx solid #efefef;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ 
+.input-left{
+  margin-left: 25rpx;
+  font-size: 30rpx;
+}
+ 
+.input-right{
+  margin-right: 25rpx;
+  font-size: 30rpx;
+}
+ 
+.input{
+  font-size: 30rpx;
+  width: 500rpx;
+}

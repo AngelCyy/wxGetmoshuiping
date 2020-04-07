@@ -1,0 +1,12 @@
+<view class="page-body">
+
+  <view>
+     <image class="title" type="center" src="/img/astart.png"></image>
+  </view>
+  
+  <view>
+    <button type="primary" class="main" bindtap='startScan'>下一步</button>
+  </view>
+
+
+</view>

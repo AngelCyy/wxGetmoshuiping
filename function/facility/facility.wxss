@@ -1,0 +1,124 @@
+/* function/facility/facility.wxss */
+view {
+  box-sizing: border-box;
+}
+.margin{
+  border: 8rpx solid greenyellow;
+  margin: 10rpx;
+  text-align: center;
+}
+
+.item-box {
+  width: 700rpx;
+  margin: 0 auto;
+  padding: 30rpx 0;
+}
+
+.items {
+  width: 100%;
+}
+
+.item {
+  position: relative;
+  border-top: 2rpx solid #eee;
+  height: 160rpx;
+  line-height: 120rpx;
+  overflow: hidden;
+  border: 8rpx solid rgb(61, 15, 1);
+  margin: 10rpx;
+  margin-bottom: 10rxpx;
+}
+
+.item:last-child {
+  border-bottom: 2rpx solid #eee;
+}
+
+.inner {
+  position: absolute;
+  top: 0;
+}
+
+.inner.txt {
+  background-color: #fff;
+  width: 100%;
+  z-index: 5;
+  padding: 0 10rpx;
+  transition: left 0.2s ease-in-out;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.item-icon {
+  width: 70rpx;
+  height: 70rpx;
+  vertical-align: middle;
+  margin-right: 16rpx;
+  margin-left: 13px;
+  border-radius: 50%;
+}
+
+.item-data {
+  float: right;
+  margin-right: 5%;
+}
+
+.rankpace {
+  color: #fa7e04;
+}
+
+
+.card{
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+padding: 12rpx 0;
+}
+.card .caa{
+width: 232rpx;
+height: 140rpx;
+overflow: hidden;
+border-radius:8rpx;
+margin-right: 20rpx;
+background-color: #eee;
+}
+.card .caa .ig{
+width: 100%;
+height: 100%;
+display: block;
+}
+.card .cab{
+width: 5%;
+flex:1;
+}
+.card .cab .type{
+font-size:32rpx;
+font-family:PingFangSC;
+font-weight:500;
+}
+.card .cab .price{
+font-size: 28rpx;
+font-family:PingFangSC;
+font-weight:500;
+}
+.card .cab .price .t{
+color: #EC400A;
+}
+.card .cac{
+width: 160rpx;
+height:60rpx;
+background:rgba(255,205,17,1);
+border-radius:4rpx;
+font-family:PingFangSC;
+font-weight:500;
+font-size: 28rpx;
+color: #fff;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.cs{
+display: flex;
+flex-direction: column;
+}
